@@ -12,7 +12,7 @@ function seoFiles(siteUrl: string): Plugin {
   return {
     name: "mahesh-advisor-seo-files",
     transformIndexHtml(html) {
-      return html.replaceAll("__SITE_URL__", siteUrl);
+      return html.replaceAll("https://mahesh-insurance-advisor.vercel.app", siteUrl);
     },
     configureServer(server) {
       server.middlewares.use((request, response, next) => {

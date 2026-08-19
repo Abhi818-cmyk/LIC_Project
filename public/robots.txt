@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mahesh-insurance-advisor.vercel.app/sitemap.xml
